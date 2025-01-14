@@ -1,0 +1,169 @@
+{
+  "data": [
+    {
+      "name": "Acme Corporation",
+      "description": "A leading provider of innovative solutions.",
+      "logo" : "/assests/Acme.jpg",
+      "contact": {
+        "phone": "+1 555 123 4567",
+        "email": "info@acmecorp.com",
+        "website": "https://www.acmecorp.com"
+      },
+      "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+      }
+    },
+    {
+      "name": "Tech Solutions",
+      "logo": "/assests/Techs.jpg",
+      "description": "A global leader in tech consulting and services.",
+      "contact": {
+        "phone": "+1 555 789 0123",
+        "email": "contact@techsolutions.com",
+        "website": "https://www.techsolutions.com"
+      },
+      "address": {
+        "street": "456 Technology Blvd",
+        "city": "Tech City",
+        "state": "NY",
+        "zip": "10001"
+      }
+    },
+    {
+      "name": "Innovate Hub Inc.",
+      "logo": "/assests/InnovateH.png",
+      "description": "Partnering for innovative solutions and growth.",
+      "contact": {
+        "phone": "+1 555 876 5432",
+        "email": "partners@innovate.com",
+        "website": "https://www.innovate.com"
+      },
+      "address": {
+        "street": "101 Collaboration Way",
+        "city": "Partnership City",
+        "state": "IL",
+        "zip": "60601"
+      }
+    },
+    {
+      "name": "Global Parts Supplier",
+      "logo": "/assests/GlobalPS.png",
+      "description": "Supplying high-quality parts worldwide.",
+      "contact": {
+        "phone": "+1 555 654 3210",
+        "email": "support@globalparts.com",
+        "website": "https://www.globalparts.com"
+      },
+      "address": {
+        "street": "789 Industrial Ave",
+        "city": "Manufacturing Town",
+        "state": "TX",
+        "zip": "75001"
+      }
+    },
+    {
+      "name": "United Products",
+      "logo": "/assests/United.jpg",
+      "description": "Providing products that unite and inspire.",
+      "contact": {
+        "phone": "+1 555 234 5678",
+        "email": "support@nitedproducts.com",
+        "website": "https://www.unitedproducts.com"
+      },
+      "address": {
+        "street": "321 Unity Blvd",
+        "city": "Inspiration City",
+        "state": "WA",
+        "zip": "98001"
+      }
+    },
+
+    {
+      "name": "Quality Services Co.",
+      "logo": "/assests/Quality.jpg",
+      "description": "Delivering quality services for all your needs.",
+      "contact": {
+        "phone": "+1 555 432 1098",
+        "email": "support@qualityservices.com",
+        "website": "https://www.qualityservices.com"
+      },
+      "address": {
+        "street": "567 Service Rd",
+        "city": "Quality Town",
+        "state": "CA",
+        "zip": "90210"
+      }
+
+    },
+    {
+      "name": "Polices Group Inc",
+      "logo": "/assests/InocientG.png",
+      "description": "Creating Lic Policies solutions for a better future.",
+      "contact": {
+        "phone": "+1 555 321 0987",
+        "email": "support@inocientgroup.com",
+        "website": "https://www.polices.com"
+      },
+      "address": {
+        "street": "876 Innovation Ave",
+        "city": "Future City",
+        "state": "FL",
+        "zip": "33101"
+      }
+    },
+
+    {
+      "name": "Dynamic Innovations",
+      "logo": "/assests/Dynamic.jpg",
+      "description": "Driving dynamic innovations for a changing world.",
+      "contact": {
+        "phone": "+1 555 210 9876",
+        "email": "support@dynamicinnovation.com",
+        "website": "https://www.dynamici.com"
+      },
+      "address": {
+        "street": "109 Dynamic Dr",
+        "city": "Innovation City",
+        "state": "TX",
+        "zip": "75001"
+      }
+    },
+
+    {
+      "name": "Future Solutions",
+      "logo": "/assests/FutureS.png",
+      "description": "Providing solutions for a better future.",
+      "contact": {
+        "phone": "+1 555 098 7654",
+        "email": "support@futuresolution.com",
+        "website": "https://www.futuresolution.com"
+      },
+      "address": {
+        "street": "543 Future Blvd",
+        "city": "Tomorrow Town",
+        "state": "CA",
+        "zip": "90210"
+      }
+    },
+
+    {
+      "name": "IT Technologies",
+      "logo": "/assests/ITTechnologies.avif",
+      "description": "Leading the way with innovative technologies.",
+      "contact": {
+        "phone": "+1 555 876 5432",
+        "email": "support@ittech.com",
+        "website": "https://www.ittech.com"
+      },
+      "address": {
+        "street": "210 Technology Way",
+        "city": "Innovation City",
+        "state": "NY",
+        "zip": "10001"
+      }
+    }
+  ]
+}
