@@ -1,0 +1,222 @@
+{
+    "employees":[
+            {
+                "id" : "1",
+                "name": "John Deo",
+                "gender" : "Male",
+                "nationality" : "United State",
+                "contact": {
+                    "phone" : "+1 555 123 3822",
+                    "email": "johndeo@gmail.com"
+                },
+
+                "organizationDetails" : {
+                    "role": "Associate Consultant",
+                    "designation" : "Associate Developer",
+                    "department" : "IT"
+                },
+
+                "additionalDetails": {
+                        "employeeCode" : "1360991",
+                        "dateOfJoining" : "19 oct 2022",
+                        "location" : "New York",
+                    "address": {
+                        "street": "456 Technology Blvd",
+                        "city": "Tech City",
+                        "state": "NY",
+                        "zip": "10001"
+                    }
+                }
+
+            },
+
+            {
+                "id" : "2",
+                "name": "William",
+                "gender" : "Male",
+                "nationality" : "United State",
+                "contact": {
+                    "phone" : "+1 555 179 3102",
+                    "email": "william@gmail.com"
+                },
+
+                "organizationDetails" : {
+                    "role": "Junior Associate Consultant",
+                    "designation" : "Junior Associate Testing",
+                    "department" : "IT"
+                },
+
+                "additionalDetails": {
+                        "employeeCode" : "1360992",
+                        "dateOfJoining" : "19 jan 2024",
+                        "location" : "New York",
+                    "address": {
+                        "street": "456 Technology Blvd",
+                        "city": "Tech City",
+                        "state": "NY",
+                        "zip": "10001"
+                    }
+                }
+
+            },
+
+            
+            {
+                "id" : "3",
+                "name": "Jack",
+                "gender" : "Male",
+                "nationality" : "United State",
+                "contact": {
+                    "phone" : "+1 555 165 9865",
+                    "email": "jack@gmail.com"
+                },
+
+                "organizationDetails" : {
+                    "role": "Senior Associate Consultant",
+                    "designation" : "Senior Associate Developer",
+                    "department" : "IT"
+                },
+
+                "additionalDetails": {
+                        "employeeCode" : "1360993",
+                        "dateOfJoining" : "09 jan 2020",
+                        "location" : "New York",
+                    "address": {
+                        "street": "456 Technology Blvd",
+                        "city": "Tech City",
+                        "state": "NY",
+                        "zip": "10001"
+                    }
+                }
+
+            },
+
+             
+            {
+                "id" : "4",
+                "name": "Lily",
+                "gender" : "Female",
+                "nationality" : "United State",
+                "contact": {
+                    "phone" : "+1 555 773 6563",
+                    "email": "lily@gmail.com"
+                },
+
+                "organizationDetails" : {
+                    "role": "Consultant",
+                    "designation" : "Senior Consultant",
+                    "department" : "Help Desk"
+                },
+
+                "additionalDetails": {
+                        "employeeCode" : "1360994",
+                        "dateOfJoining" : "09 jun 2022",
+                        "location" : "New York",
+                    "address": {
+                        "street": "456 Technology Blvd",
+                        "city": "Tech City",
+                        "state": "NY",
+                        "zip": "10001"
+                    }
+                }
+
+            },
+
+            
+             
+            {
+                "id" : "5",
+                "name": "James",
+                "gender" : "Male",
+                "nationality" : "United State",
+                "contact": {
+                    "phone" : "+1 555 169 1902",
+                    "email": "james@gmail.com"
+                },
+
+                "organizationDetails" : {
+                    "role": "Sales Force Developer",
+                    "designation" : "Sales Force Developer",
+                    "department" : "Sales Developer"
+                },
+
+                "additionalDetails": {
+                        "employeeCode" : "1360985",
+                        "dateOfJoining" : "30 jun 2023",
+                        "location" : "New York",
+                    "address": {
+                        "street": "456 Technology Blvd",
+                        "city": "Tech City",
+                        "state": "NY",
+                        "zip": "10001"
+                    }
+                }
+
+            },
+
+            
+             
+            {
+                "id" : "6",
+                "name": "Allison",
+                "gender" : "Female",
+                "nationality" : "United State",
+                "contact": {
+                    "phone" : "+1 555 453 5345",
+                    "email": "allison@gmail.com"
+                },
+
+                "organizationDetails" : {
+                    "role": "Junior Consultant",
+                    "designation" : "Junior Consultant",
+                    "department" : "Help Desk"
+                },
+
+                "additionalDetails": {
+                        "employeeCode" : "1360996",
+                        "dateOfJoining" : "10 dec 2024",
+                        "location" : "New York",
+                    "address": {
+                        "street": "456 Technology Blvd",
+                        "city": "Tech City",
+                        "state": "NY",
+                        "zip": "10001"
+                    }
+                }
+
+            },
+
+            
+             
+            {
+                "id" : "7",
+                "name": "Sophie",
+                "gender" : "Female",
+                "nationality" : "United State",
+                "contact": {
+                    "phone" : "+1 544 239 3432",
+                    "email": "sophie@gmail.com"
+                },
+
+                "organizationDetails" : {
+                    "role": "Senior Testing",
+                    "designation" : "Senior Testing",
+                    "department" : "Testing"
+                },
+
+                "additionalDetails": {
+                        "employeeCode" : "1360997",
+                        "dateOfJoining" : "23 jun 2023",
+                        "location" : "New York",
+                    "address": {
+                        "street": "456 Technology Blvd",
+                        "city": "Tech City",
+                        "state": "NY",
+                        "zip": "10001"
+                    }
+                }
+
+            }
+        ]
+    
+}

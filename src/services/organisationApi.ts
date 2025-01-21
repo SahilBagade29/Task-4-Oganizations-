@@ -1,5 +1,4 @@
 import axios, { AxiosInstance } from "axios";
-import { log } from "console";
 
 const API_BASE_URL = "http://localhost:3001";
 
