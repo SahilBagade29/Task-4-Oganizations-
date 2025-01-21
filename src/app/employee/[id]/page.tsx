@@ -16,21 +16,27 @@ const EmployeeId = async(props:any) => {
         <h1 className="text-center text-2xl font-bold my-8">
    Employees Details 
 </h1>
-<div className="flex flex-wrap justify-center gap-6">
+<div className="flex flex-wrap justify-center gap-6 tracking-wider">
     <div
       key={empid.id}
-      className="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-4"
-    >
+      className="w-full sm:w-2/3 lg:w-1/2 xl:w-1/3 max-w-md bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-4"
+      >
       <div className="p-4">
-        <p className="font-bold text-lg text-gray-900 dark:text-white mb-2">
-          Name: {empid.name}
-        </p>
+        <p className="text-center font-bold text-lg text-gray-900 dark:text-white mb-2 uppercase tracking-wider">
+           {empid.name}
+      <img alt=""
+          src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+          className="h-15 w-20 rounded-full"
+      />
+        </p><br />
+
         <p className="font-normal text-gray-700 dark:text-gray-400">
           Gender: {empid.gender}
-        </p>
+        </p><br />
+
         <p className="font-normal text-gray-700 dark:text-gray-400">
           Nationality: {empid.nationality}
-        </p>
+        </p><br />
 
         <p className="font-normal text-gray-700 dark:text-gray-400">
           Phone:
@@ -40,7 +46,8 @@ const EmployeeId = async(props:any) => {
            >
               {empid.contact?.phone || "N/A"}
           </Link> 
-        </p>
+        </p><br />
+
         <p className="font-normal text-gray-700 dark:text-gray-400">
           Email: 
           <Link
@@ -49,25 +56,32 @@ const EmployeeId = async(props:any) => {
            >
             {empid.contact?.phone || "N/A"}
           </Link> 
-        </p>
+        </p><br />
+    
         <p className="font-normal text-gray-700 dark:text-gray-400">
           Role: {empid.organizationDetails.role}
-        </p>
+        </p><br />
+
         <p className="font-normal text-gray-700 dark:text-gray-400">
           Designation: {empid.organizationDetails.designation}
-        </p>
+        </p><br />
+
         <p className="font-normal text-gray-700 dark:text-gray-400">
           Department: {empid.organizationDetails.department}
-        </p>
+        </p><br />
+
         <p className="font-normal text-gray-700 dark:text-gray-400">
           Employee Code: {empid.additionalDetails.employeeCode}
-        </p>
+        </p><br />
+
         <p className="font-normal text-gray-700 dark:text-gray-400">
           Date of Joining: {empid.additionalDetails.dateOfJoining}
-        </p>
+        </p><br />
+
         <p className="font-normal text-gray-700 dark:text-gray-400">
           Location: {empid.additionalDetails.location}
-        </p>
+        </p><br />
+
         <p className="font-normal text-gray-700 dark:text-gray-400">
           Address: {empid.additionalDetails.address.street}, {empid.additionalDetails.address.city}, {empid.additionalDetails.address.state}, {empid.additionalDetails.address.zip}
         </p>

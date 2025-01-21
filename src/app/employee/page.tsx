@@ -44,22 +44,55 @@ const PersonalData = () => {
             alt="Logo"
           />
         </div>
-        <div className="flex flex-wrap justify-center gap-6">
-          {employeeData?.map((item) => (
-            <div
-              key={item.id}
-              className="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-4"
-            >
-              <div className="p-4">
-                <Link
-                  href={`/employee/${item.id}`}
-                  className="font-medium dark:text-blue-500 hover:text-blue-600 underline font-bold text-lg text-gray-900 dark:text-white mb-2"
+
+        <div className="overflow-x-auto">
+          <table className="min-w-full divide-y divide-gray-200 table-auto border border-gray-200 rounded-lg shadow dark:border-gray-700">
+            <thead className="bg-gray-50 dark:bg-gray-700">
+              <tr>
+                <th
+                  scope="col"
+                  className="px-10 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider"
                 >
-                  Name : {item.name}
-                </Link>
-              </div>
-            </div>
-          ))}
+                  ID
+                </th>
+                <th
+                  scope="col"
+                  className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider"
+                >
+                  Name
+                </th>
+                <th
+                  scope="col"
+                  className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider"
+                >
+                  Action
+                </th>
+              </tr>
+            </thead>
+            <tbody className="bg-white dark:bg-gray-800 divide-y divide-gray-200">
+              {employeeData?.map((item) => (
+                <tr
+                  key={item.id}
+                  className="hover:bg-gray-100 dark:hover:bg-gray-700"
+                >
+                  <td className="px-10 py-4 text-sm text-gray-900 dark:text-white">
+                    {item.id}
+                  </td>
+                  <td className="px-6 py-4 text-sm text-gray-900 dark:text-white">
+                    {item.name}
+                  </td>
+                  <td className="px-6 py-4 text-sm">
+                    <Link
+                      href={`/employee/${item.id}`}
+                      className="text-blue-600 hover:underline dark:text-blue-400"
+                    >
+                      View Details
+                    </Link>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </div>
       </div>
     </>
