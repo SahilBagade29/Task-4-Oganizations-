@@ -7,7 +7,7 @@ const OfficialData = () => {
   
   return (
     <>
-    <h2 className="text-center text-2xl font-bold my-8">Add Data Of Employee</h2>
+    {/* <h2 className="text-center text-2xl font-bold my-8">Add Data Of Employee</h2> */}
          <h2 className="text-center text-2xl font-bold my-8">Oficial Data Of Employee</h2>
       <br />
 

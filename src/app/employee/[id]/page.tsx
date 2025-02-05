@@ -13,9 +13,9 @@ const EmployeeId = async(props:any) => {
   return (
     <>
        <div>
-        <h1 className="text-center text-2xl font-bold my-8">
+        {/* <h1 className="text-center text-2xl font-bold my-8">
    Employees Details 
-</h1>
+</h1> */}
 <div className="flex flex-wrap justify-center gap-6 tracking-wider">
     <div
       key={empid.id}

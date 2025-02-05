@@ -1,9 +1,10 @@
 {
   "data": [
     {
+      "id" : "1",
       "name": "Acme Corporation",
       "description": "A leading provider of innovative solutions.",
-      "logo" : "/assests/Acme.jpg",
+      "logo" : "/assests/Acme.webp",
       "contact": {
         "phone": "+1 555 123 4567",
         "email": "info@acmecorp.com",
@@ -18,6 +19,7 @@
     },
     
     {
+      "id" : "2",
       "name": "Tech Solutions",
       "logo": "/assests/Techs.jpg",
       "description": "A global leader in tech consulting and services.",
@@ -34,6 +36,7 @@
       }
     },
     {
+      "id" : "3",
       "name": "Innovate Hub Inc.",
       "logo": "/assests/InnovateH.png",
       "description": "Partnering for innovative solutions and growth.",
@@ -50,6 +53,7 @@
       }
     },
     {
+      "id" : "4",
       "name": "Global Parts Supplier",
       "logo": "/assests/GlobalPS.png",
       "description": "Supplying high-quality parts worldwide.",
@@ -66,6 +70,7 @@
       }
     },
     {
+      "id" : "5",
       "name": "United Products",
       "logo": "/assests/United.jpg",
       "description": "Providing products that unite and inspire.",
@@ -83,6 +88,7 @@
     },
 
     {
+      "id" : "6",
       "name": "Quality Services Co.",
       "logo": "/assests/Quality.jpg",
       "description": "Delivering quality services for all your needs.",
@@ -100,6 +106,7 @@
 
     },
     {
+      "id" : "7",
       "name": "Polices Group Inc",
       "logo": "/assests/InocientG.png",
       "description": "Creating Lic Policies solutions for a better future.",
@@ -117,6 +124,7 @@
     },
 
     {
+      "id" : "8",
       "name": "Dynamic Innovations",
       "logo": "/assests/Dynamic.jpg",
       "description": "Driving dynamic innovations for a changing world.",
@@ -134,6 +142,7 @@
     },
 
     {
+      "id" : "9",
       "name": "Future Solutions",
       "logo": "/assests/FutureS.png",
       "description": "Providing solutions for a better future.",
@@ -151,6 +160,7 @@
     },
 
     {
+      "id" : "10",
       "name": "IT Technologies",
       "logo": "/assests/ITTechnologies.avif",
       "description": "Leading the way with innovative technologies.",

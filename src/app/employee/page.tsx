@@ -1,18 +1,22 @@
-"use client";
+"use client"
+import { Button } from "@/components/button";
 import { getEmployeesData } from "@/services/employeeApi";
 import { Employee } from "@/types/employee";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
 const PersonalData = () => {
   const [employeeData, setEmployeeData] = useState<Employee[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
 
+  const router = useRouter();
+
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await getEmployeesData("/employees");
+        const response = await getEmployeesData(`/employees`);
         setEmployeeData(response);
         console.log(response, "Fetched Data");
       } catch (error) {
@@ -32,9 +36,9 @@ const PersonalData = () => {
   return (
     <>
       <div>
-        <h1 className="text-center text-2xl font-bold my-8">
+        {/* <h1 className="text-center text-2xl font-bold my-8">
           Total Number Employees In an Organization
-        </h1>
+        </h1> */}
         <div className="flex justify-center mb-8">
           <Image
             src={"/assests/Acme.webp"}
@@ -51,7 +55,7 @@ const PersonalData = () => {
               <tr>
                 <th
                   scope="col"
-                  className="px-10 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider"
+                  className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider"
                 >
                   ID
                 </th>
@@ -84,10 +88,16 @@ const PersonalData = () => {
                   <td className="px-6 py-4 text-sm">
                     <Link
                       href={`/employee/${item.id}`}
-                      className="text-blue-600 hover:underline dark:text-blue-400"
+                      className="text-blue-600 hover:underline dark:text-blue-400 px-10 py-3"
                     >
                       View Details
                     </Link>
+                    <Button
+                      onClick={() => router.push(`/designation?id=${item.id}`)}
+                      className="space-x-6 mt-4 md:mt-8 px-6 py-4"
+                    >
+                      Add Employee Designation
+                    </Button>
                   </td>
                 </tr>
               ))}
